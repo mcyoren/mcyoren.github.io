@@ -4,8 +4,10 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Yuri Mitrankov Portfolio</title>
-   <link rel="preload" href="./css/normalize.css" as="style">
+   <title>Iurii Mitrankov Portfolio</title>
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+	<link rel="preload" href="./css/normalize.css" as="style">
    <link rel="stylesheet" href="./css/normalize.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@600;800&display=swap" rel="stylesheet">
@@ -16,7 +18,7 @@
 	<header class="header" id="home">
 		<div class="contenedor">
 			<nav class="header__nav">
-				<h2 class="header__logo">Yuri Mitrankov</h2> <!--logo-->
+				<h2 class="header__logo">Iurii Mitrankov</h2> <!--logo-->
 
 				<div class="header__links-container">
 					<ul class="header__links-list">
@@ -25,7 +27,7 @@
 						<li><a href="#Work-experience">Work</a></li>
 						<li><a href="#Publications">Publications</a></li>
 						<li><a href="#Conferences">Conferences</a></li>
-						<li><a href="#Contact">Contact</a></li>
+						<li><a href="#contact-me">Contact</a></li>
 					</ul>
 				</div>
 				<div class="header__toggle">
@@ -38,12 +40,14 @@
 			<section class="header__hero">
 				<section class="header__intro">
 					<h1 class="header__name">I'm <span id="name-short">Iurii</span></h1>
-					<p>research-associate at SPbPU <span class="flag"></span></p>
-					<a class="btn" href="#projects">My Projects</a>
+					<p>
+						A research assistant in elementary particles and high energy physics in SPbPU.
+					</p>
+					<a class="btn" href="https://www.overleaf.com/read/mknkbmqghmrs">Download Curriculum Vitae</a>
 				</section>
 				<div class="header__personal">
 					<figure class="header__img-container">
-						<img class="header__img" src="./assets/img/foto-4.jpg" alt="young man picture">
+						<img class="header__img" src="./assets/img/photo.jpg" alt="Iurii Mitrankov's photo">
 					</figure>
 					<section class="header__personal-links">
 						<a href="https://github.com/leogarcialp" target="_blank" title="Github">
@@ -84,51 +88,297 @@
 			<div class="about__content">
 				<div class="about__description">
 					<p>
-						Hello, I'm Leonardo García, a Junior Front-End Developer from El Salvador. Due to the 2020 pandemic, I could no longer continue in collegue, so I had to continue my learning not as a future Computer Science Engineer, but as a programmer.
+						Hello, I'm Iurii Mitrankov, Research Scholar in the area of elementary particle and high energy physics.
 					</p>
 					<p>
-						In college, I saw a little introduction to the basics of web development, which caught my attention and I liked it. So I set out to learn until I mastered it. My goal is to become a long-term Full Stack MERN developer and then jump to mobile apps development.
+						I have studied physics of atomic nuclei and elementary particles physics in the St. Petersburg Polytechnic univercity (SPbPU) in bachelor, master, and PhD programs.
 					</p>
 					<p>
-						I am currently building projects to show in my portfolio and keep learning new things. I am a Computer Technician, I like everything related to hardware. I like video games, rock music and sports, especially football. 
+						During the study, I've entered the PHENIX collaboration at RHIC collider. I did an analysis devoted to phi meson production in Cu+Au and U+U collisions.
+					</p>
+					<p>
+						Besides my own scientific research, I work as a research assistant in SPbPU and give a course of lections to students from 5 to 8 sem on QFT and also practices devoted to high energy physics packages.
+						Under my guideness 5 students of SPbPU are proceeding whith thier analysis for the PHENIX collaboration.
 					</p>
 				</div> <!--about__description-->
-				<div class="about__img-container">
-					<img src="./assets/img/hobbies.jpg" alt="person showing hobbies">
-				</div>
 			</div> <!--.about__content-->
 		</div>
 	</section>
 
-	<section class="Education" id="Education">
+	<section class="edu" id="Education">
 		<div class="contenedor">
-			<h2 class="education__title">ABOUT ME</h2>
-			<div class="education__content">
-				<div class="education__description">
+			<h2 class="edu__title">EDUCATION</h2>
+			<div class="edu__content">
+				<div class="edu__description">
 					<p>
-						Hello, I'm Yuri Mitrankov, a research-associate at SPbPU.
+						<span>2018 - 2022</span>
 					</p>
 					<p>
-						I've been doing a lot
+						Ph. D. - Elementary particle and high energy physics
+						<br>
+						Peter the Great St.Petersburg Polytechnic University (SPbPU), Russia
+						<br>
+						PhD title:  Measurements of \(\phi\) meson production in Cu+Au and U+U collisions at PHENIX
+						<br>
+						DIPLOMA: Qualification - Researcher. Teacher researcher.
 					</p>
 					<p>
-						I am currently building projects to show in my portfolio and keep learning new things.
+						<span>2016 - 2018</span>
+					</p>
+					<p>
+						M. Phys. - Elementary particle  and nuclear physics
+						<br>
+						Peter the Great St.Petersburg Polytechnic University (SPbPU), Russia
+						<br>
+						Passed with 4.00/4.00 CGPA.
+					</p>
+					<p>
+						<span>2012 - 2016</span>
+					</p>
+					<p>
+						B. Phys. - Physics
+						<br>
+						Peter the Great St.Petersburg Polytechnic University (SPbPU), Russia
+						<br>
+						Passed with 3.92/4.00 CGPA
 					</p>
 				</div> <!--about__description-->
-				<div class="about__img-container">
-					<img src="./assets/img/hobbies.jpg" alt="person showing hobbies">
-				</div>
 			</div> <!--.about__content-->
 		</div>
 	</section>
-	<main class="main" id="projects">
-		<h2 class="main__title">PROJECTS</h2>
-		<div class="contenedor">
-			<div class="main__project-container">
-			</div> <!--projects container-->
-		</div>
-	</main>
 
+	<!--         .......................... -->
+
+
+	<section class="work" id="Work-experience">
+		<div class="contenedor">
+			<h2 class="work__title">WORK EXPERIENCE</h2>
+			<div class="work__content">
+				<div class="work__description">
+					<p>
+						<span>Jan 2019 - ongoing</span>
+					</p>
+					<p>
+						<b>Research assistant</b>
+						<br>
+						Peter the Great St.Petersburg Polytechnic University (SPbPU), Russia
+						<br>
+						<u>Myself</u>: measurements of \(\phi\) meson production in \( \rm{Cu+Au}\)  at \(\sqrt{s_{_{NN}}}\rm{=200 ~GeV}\) and \(\rm{U+U}\) at \(\sqrt{s_{_{NN}}}\rm{=193 ~GeV}\) collisions.
+						<br>
+						<u>Supervision</u>: measurements of  \(K^{0*}(895)\) mesons in \(p\rm{+Al}\) \(p\rm{/ ^{3}He/Cu+Au}\) at \(\sqrt{s_{_{NN}}}\rm{=200 ~GeV}\) and \(\rm{U+U}\) at \(\sqrt{s_{_{NN}}}\rm{=193 ~GeV}\),
+						<br> identified hadrons \( ( \pi^{\pm}, K^{\pm}, p(\bar{p}) ) \) in \(p\rm{+Al}\), \( \rm{^{3}He/Cu+Au}\) at \(\sqrt{s_{_{NN}}}\rm{=200 ~GeV}\) and \(\rm{U+U}\) at \(\sqrt{s_{_{NN}}}\rm{=193 ~GeV}\),
+						<br> thermal \(\gamma\) in \(p\rm{+Al}\) and \(\rm{^{3}He+Au}\) at \(\sqrt{s_{_{NN}}}\rm{=200 ~GeV}\)	...
+
+
+					</p>
+					<p>
+						<span>Jul 2017 - ongoing</span>
+					</p>
+					<p>
+						<b>Teaching assistant</b>
+						<br>
+						Peter the Great St.Petersburg Polytechnic University (SPbPU), Russia
+						<br>
+						<u>Lectures</u>: NRQM(5 sem.), QFT (6-8 sem.), Introduction to elementary particles (5 sem.).
+						<br>
+						<u>Practices</u>: high energy physics packages (ROOT, Pyhtia, GEANT), radiation measurements.
+						<br>
+						<u>Classbook</u>: Lattice QCD.
+					</p>
+				</div> <!--about__description-->
+			</div> <!--.about__content-->
+			<button type="button" class="collapsible">See the program of my lectures</button>
+			<div class="collapsible__content">
+				<p>
+					<ol>
+						<li><b>Introduction to Elementary particles</b></li>
+							<ol>
+								<li>Review of standard model</li>
+								<li>Scattering theory</li>
+								<li>Symmetries and Quark Model</li>
+							</ol>
+						<li><b>Relativistic quantum mechanics</b></li>
+							<ol>
+								<li>Why is it the way it is?</li>
+								<li>Relativistic wave equations</li>
+							</ol>
+						<li><b>Why do we need fields?</b></li>
+							<ol>
+								<li>Causality and multiparticles</li>
+								<li>The Bohm-Aharonov effect</li>
+								<li>Abelian and Non-Abelian FT</li>
+							</ol>
+						<li><b>Quantum fields</b></li>
+							<ol>
+								<li>Free fields</li>
+								<li>Interaction fields</li>
+								<li>Fenman diagrams</li>
+								<li>QED</li>
+								<li>Higher Order Corrections</li>
+								<li>Application</li>
+							</ol>
+						<li><b>Path integral (Functionals)</b></li>
+							<ol>
+								<li>Path integral in NRQM</li>
+								<li>Path integral in QFT</li>
+								<li>Non-Abelian gauge theories</li>
+								<li>Ghosts, QCD Feynman Rules</li>
+								<li>Ward and ST Identities</li>
+							</ol>
+						<li><b>Renormalization</b></li>
+							<ol>
+								<li>Common principles</li>
+								<li>QED</li>
+								<li>QCD and Electroweak</li>
+							</ol>
+						<li><b>QCD application</b></li>
+							<ol>
+								<li>Parton model</li>
+								<li>DGLAP</li>
+								<li>Spin structure of nucleons</li>
+								<li>QCD on lattice</li>
+								<li>Low-x physics</li>
+							</ol>
+						<li><b>Standard Model and beyond</b></li>
+					</ol>
+				</p>
+			</div>
+		</div>
+	</section>
+	<!--         .......................... -->
+
+	<section class="pub" id="Publications">
+		<div class="contenedor">
+			<h2 class="pub__title">MY PUBLICATIONS</h2>
+			<div class="pub__content">
+				<div class="pub__description">
+					<table id="publication_table">
+						<tr>
+							<td>Total number of articles/proceedings </td>
+							<td>55</td>
+						</tr>
+						<tr>
+							<td>PHENIX and SPD collaboration papers</td>
+							<td>21</td>
+						</tr>
+						<tr>
+							<td>Not collaboration articles</td>
+							<td>14</td>
+						</tr>
+						<tr>
+							<td>Proceedings</td>
+							<td>20</td>
+						</tr>
+					</table>
+				</div>
+				<section class="pub__publication-links">
+					<a href= https://orcid.org/0000-0002-9774-2339  target="_blank" title="Orcid"><span class="icon_orcid"></span></a>
+					<a href= https://www.scopus.com/authid/detail.uri?authorId=57204878415  target="_blank" title="Scopus"><span class="icon_scopus"></span></a>
+					<a href= https://www.webofscience.com/wos/author/record/U-3839-2019  target="_blank" title="WoS"><span class="icon_publons"></span></a>
+					<a href= https://scholar.google.com/citations?user=RvF3wd8AAAAJ  target="_blank" title="Google Scholar"><span class="icon_google"></span></a>
+				</section>
+			</div>
+			<button type="button" class="collapsiblepub">The list of the main publications</button>
+			<div class="collapsiblepub__content">
+				<p>
+					<ul>
+						<li> N.J. Abdulameer et al. (PHENIX collaboration) Measurement of \(\phi\) meson production in Cu+Au collisions at \(\sqrt{s_{_{NN}}}\) = 200 GeV and U+U collisions at \(\sqrt{s_{_{NN}}}\) = 193 GeV, Phys. Rev. C <b>107</b>, 014907 (2023). (<a class="hyperdark" href= https://doi.org/10.1103/PhysRevC.107.014907  target="_blank"> 10.1103/PhysRevC.107.014907 </a>)</li>
+						<li> Iu. Mitrankov, Modification of hadron productions in small systems observed by PHENIX, Nucl. Phys. A 1005, 121878 (2021). (<a class="hyperdark" href= https://doi.org/10.1016/j.nuclphysa.2020.121878  target="_blank">10.1016/j.nuclphysa.2020.121878 </a>)</li>
+						<li> Iu. M. Mitrankov, Ya. A. Berdnikov, A. Ya. Berdnikov, D. O. Kotov, M. M. Mitrankova, N. Novitzky for the PHENIX collaboration, The \(\phi\) meson production from small to large systems of ion collisions at \(\sqrt{s_{_{NN}}}\) = 200 and 193 GeV, Phys. Scr. <b>97</b> 054012 (2021). (<a class="hyperdark" href= https://doi.org/10.1088/1402-4896/ac6708  target="_blank">10.1088/1402-4896/ac6708 </a>)</li>
+
+					</ul>
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<!--         .......................... -->
+	<!--         .......................... -->
+
+
+	<section class="conf" id="Conferences">
+		<div class="contenedor">
+			<h2 class="conf__title">ATTENDED CONFERENCES</h2>
+			<div class="conf__content">
+				<div class="conf__description">
+					<p>
+					<ul>
+						<li><a class="hyperlight" href= https://indico.cern.ch/event/792436/  target="_blank"> <b>Quark Matter 2019</b> - the XXVIII<sup>th</sup>International Conference on Ultra-relativistic Nucleus-Nucleus Collisions </a>
+						<br>
+							3-9 November, Wuhan, China
+						<br>
+							Yuri Mitrankov for the PHENIX Collaboration  <a class="hyperlight"  href= https://indico.cern.ch/event/792436/contributions/3535646/  target="_blank"> “Modification of hadron productions in small systems observed by PHENIX” </a></li>
+
+
+					<li><a class="hyperlight"  href= https://indico.cern.ch/event/634426/  target="_blank"> <b>Hard Probes 2018</b>: International Conference on Hard and Electromagnetic Probes of High-Energy Nuclear Collisions </a>
+						<br>
+							30 September – 5 October 2018, Aix-Les-Bains, Savoie, France
+						<br>
+							Yuri Mitrankov  <a class="hyperlight"  href=https://indico.cern.ch/event/634426/contributions/3090476/  target="_blank"> “Scaling properties of high \(p_{T}\) light hadrons from small to large systems by PHENIX” </a></li>
+
+
+					<li><a class="hyperlight"  href= https://indico.cern.ch/event/755366/  target="_blank"> <b>SQM 2019</b>: The 18<sup>th</sup> International Conference on Strangeness in Quark Matter  </a>
+						<br>
+						9 – 15 June 2019, Bari, Italy
+						<br>
+						Iurii Mitrankov   <a class="hyperlight"  href=https://indico.cern.ch/event/755366/contributions/3357934/  target="_blank"> “Production of light flavor hadrons measured by PHENIX at RHIC” </a></li>
+
+
+					<li><a class="hyperlight"  href= https://indico.cern.ch/event/985652  target="_blank"> <b>SQM 2021</b>: The 19<sup>th</sup> International Conference on Strangeness in Quark Matter</a>
+						<br>
+						17 – 22 May 2021, On-line
+						<br>
+						Yuri Mitrankov  <a class="hyperlight"  href=https://indico.cern.ch/event/985652/contributions/4305140/  target="_blank"> “Elliptic flow for \(\phi\)-mesons measured by PHENIX” </a></li>
+
+
+					<li><a class="hyperlight"  href= https://indico.cern.ch/event/1025480/  target="_blank"> <b>ICNFP 2021</b>: 10<sup>th</sup> International Conference on New Frontiers in Physics </a>
+						<br>
+						23 August – 7 October 2021
+						<br>
+						Iu.M. Mitrankov  <a class="hyperlight"  href=https://indico.cern.ch/event/1025480/contributions/4442687/  target="_blank"> “The \(\phi\) meson production from small to large systems” </a></li>
+
+
+					<li><a class="hyperlight"  href= http://www.science.vsu.ru/files/conf_837_8.pdf  target="_blank"> LXVIII International conference "<b>NUCLEUS – 2018.</b> Nuclear physics and elementary particle physics. Nuclear physics technologies”</a>
+						<br>
+						1-6 July 2018, Voronezh, Russia
+						<br>
+						Iu.M. Mitrankov  <a class="hyperlight"  href=http://www.science.vsu.ru/files/conf_837_8.pdf target="_blank"> “Experimental studies of \(\phi\)-meson production in Cu+Au collisions at 200 GeV and U+U collisions at 192 GeV” </a>, #106</li>
+
+
+					<li><a class="hyperlight"  href= https://indico.cern.ch/event/839985  target="_blank">  LXVIII International conference "<b>NUCLEUS – 2020.</b> Nuclear physics and elementary particle physics. Nuclear physics technologies”</a>
+						<br>
+						11-17 October 2020, St. Petersburg, Russia
+						<br>
+						<b>Plenary:</b> Iu.M. Mitrankov  <a class="hyperlight"  href=https://indico.cern.ch/event/839985/contributions/3983634/  target="_blank"> “PHENIX Highlights” </a></li>
+
+
+					<li><a class="hyperlight"  href= https://physica.spb.ru/archive/physica2018-1/  target="_blank"> International conference <b>PhysicA.SPb/2018</b></a>
+						<br>
+						23-25 October, 2018, St.Petersburg, Russia
+						<br>
+						Iu.M. Mitrankov  <a class="hyperlight"  href=https://physica.spb.ru/archive/physica2018-1/#poster  target="_blank"> “Phi meson measurements in Cu+Au collisions at 200 GeV and in U+U collisions at 192 GeV” </a>, Poster III 3-3</li>
+
+
+					<li><a class="hyperlight"  href= http://physica.spb.ru/data/uploads/2021/  target="_blank"> International conference <b>PhysicA.SPb/2021</b></a>
+						<br>
+						18-22 October, 2021, St.Petersburg, Russia
+						<br>
+						Iu.M. Mitrankov  <a class="hyperlight"  href=http://physica.spb.ru/data/uploads/2021/posters2021.html  target="_blank"> “Elliptic flow for \(\phi\)-mesons in Cu+Au and U+U collisions” </a>, Poster VI-2.24</li>
+
+
+
+					<li><a class="hyperlight"  href= https://indico.bnl.gov/event/11322/  target="_blank"> <b>2021 RHIC/AGS Annual Users' Meeting </b> </a>
+						<br>
+						8 – 11 June 2021, Virtual event
+						<br>
+						9 June, Small Systems, 1:05 PM Iurii Mitrankov  <a class="hyperlight"  href=https://indico.bnl.gov/event/11322/  target="_blank"> “Light Hadron Production in Small Systems at RHIC” </a></li>
+
+					</ul>
+					</p>
+				</div> <!--about__description-->
+			</div> <!--.about__content-->
+		</div>
+	</section>
 	<section class="contact" id="contact-me">
 		<h2 class="contact__title">CONTACT</h2>
 
@@ -142,7 +392,7 @@
 					<input class="contact__input" type="email" placeholder="Email">
 				</div>
 				<div>
-					<textarea placeholder="Write your message..."></textarea>	
+					<textarea placeholder="Write your message..."></textarea>
 				</div>
 				<div class="flex-right">
 					<input class="contact__submit btn" type="submit" value="Send Message">
@@ -152,7 +402,7 @@
 	</section>
 
 	<footer class="footer">
-		<p>&copy; <span id="year"></span> Leonardo Garcia.</p>
+		<p>&copy; <span id="year"></span> Iurii Mitrankov.</p>
 	</footer>
 
 	<!-- scrollBtn arrow -->
@@ -167,8 +417,11 @@
 
 	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 	<script src="./js/scrollBtn.js"></script>
+	<script src="./js/collapsible.js"></script>
 	<script src="./js/Typed-script.js"></script>
 	<script src="./js/Date-toggle-name.js"></script>
 	<script src="./js/modal.js"></script>
+
+
 </body>
 </html>
