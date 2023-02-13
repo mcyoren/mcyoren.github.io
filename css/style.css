@@ -720,8 +720,9 @@ svg:hover {
    /*max-width: 70rem;*/
    width: 100%;
 }
-#more {display: none;}
-
+#more {
+   display: none;
+}
 /* --------------- */
 /* MAIN (PROJECTS) */
 
